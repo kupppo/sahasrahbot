@@ -13,7 +13,9 @@ import shortuuid
 # 5) Create a .bps file
 # 6) Copy the bps file to /var/www/sgldash/bps/
 # 7) Delete the temporary directory created in step 1
-# 8) Return with the url for the patch (https://patch.synack.live/?patch=DASH_v11_SF_057677.bps)
+# 8) Return with the url for the patch
+#    - For unencrypted seeds: https://www.dashrando.net/seed?seed=057677&mode=full
+#    - For encrypted seeds: https://patch.synack.live/?patch=DASH_v11_SF_057677.bps
 ###
 
 ###
