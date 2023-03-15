@@ -85,4 +85,4 @@ async def create_smdash(mode="mm", encrypt=False):
         if proc.returncode > 0:
             raise Exception(f'Exception while while creating patch: {stderr.decode()}')
 
-    return f"https://patch.synack.live/?patch={patchname}"
+    return f"https://www.dashrando.net/seed?seed={random_id}&mode={mode}"
